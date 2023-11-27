@@ -1,0 +1,126 @@
+@media (max-width: 991px) {
+    #container {
+        position: absolute;
+        flex-direction: column;
+        transform: none !important;
+    }
+}
+
+/* Add your default styles here */
+@media (max-width: 1000px) {
+    .parent div {
+        font-size: 1rem;
+        padding: 0.5rem 0.75rem 0.75rem;
+    }
+}
+
+/* Media query for screens with a maximum width of 767px (typical mobile screen size) */
+@media (max-width: 767px) {
+    /* Modify the styles for smaller screens here */
+
+
+
+
+    #container section {
+        height: auto;
+    }
+
+
+
+    #About .content2 span {
+        font-size: 1rem;
+    }
+
+    .content2 {}
+
+    .content2 span {
+        font-size: 1.3rem;
+    }
+
+    #container section .content {
+        padding: 0;
+    }
+
+    /* Modify navigation styles for mobile */
+    nav {
+        display: none;
+    }
+
+    #About .content2 h1 {
+        font-size: 2rem;
+    }
+
+    .content2 h1 {
+
+        font-size: 2rem;
+    }
+
+
+    #About .content2 span {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    #About {
+        height: auto;
+    }
+
+
+    /* Modify profile section styles for mobile */
+    .profile {
+        height: 100vh;
+        margin-bottom: 6rem;
+        display: block;
+
+    }
+
+    #socials-container {
+        margin-bottom: 1rem;
+    }
+
+
+    .section__pic-container img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .section__pic-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Modify buttons for mobile */
+    .btn-container {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn {
+        width: 50%;
+        /* Make buttons full width on mobile */
+    }
+
+    /* Modify the layout for columns in the Bigprojects section */
+    .columns {
+        flex-direction: column;
+    }
+
+    .column {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .column img {
+        width: 100%;
+        height: auto;
+    }
+
+    .parent div {
+        font-size: 1.2rem;
+        padding: 0.5rem 0.75rem 0.75rem;
+    }
+}

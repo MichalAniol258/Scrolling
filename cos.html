@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="1.css">
+</head>
+
+<body>
+    <div id="container" data-0="transform:translateX(0%);" data-2500="transform:translateX(-300%);">
+        <section id="Home">
+            <div class="profile">
+                <div class="section__pic-container">
+                    <img src="img/profile-pic-2.png" width="400px" alt="John Doe profile picture" />
+                </div>
+                <div class="section__text">
+                    <p class="section__text__p1">Hello, I'm</p>
+                    <h1 class="title">Imie i Nazwisko</h1>
+                    <p class="section__text__p2">Frontend Developer</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+                            Download CV
+                        </button>
+                        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                            Contact Info
+                        </button>
+                    </div>
+                    <div id="socials-container">
+                        <img src="img/linkedin.png" width="32px" alt="My LinkedIn profile" class="icon"
+                            onclick="location.href='https://linkedin.com/'" />
+                        <img src="img/github.png" width="32px" alt="My Github profile" class="icon"
+                            onclick="location.href='https://github.com/'" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Bigprojects">
+            <div class="content2">
+                <h1>BIG PROJECTS</h1> <br>
+                <span>bigger projects that I consider worthy of grand display so to say</span>
+            </div>
+
+            <div class="columns">
+                <div class="column">
+                    <img src="img/wapanel.webp" alt="">
+                    <h2>Project one</h2>
+                </div>
+                <div class="column">
+                    <img src="img/rasagi.webp" alt="">
+                    <h2>Project two</h2>
+                </div>
+                <div class="column">
+                    <img src="img/De_shinde.webp" alt="">
+                    <h2>Project three</h2>
+                </div>
+            </div>
+        </section>
+
+        <section id="Smallprojects">
+            <div class="content2">
+                <h1>SMALL PROJECTS</h1> <br>
+                <span>smaller projects that I done in free time as well as some experiments and contributions</span>
+            </div>
+
+            <div class="parent">
+                <div class="div1">No</div>
+                <div class="div2">jakies</div>
+                <div class="div3">male</div>
+                <div class="div4">projekty</div>
+                <div class="div5">powinny</div>
+                <div class="div6">tu</div>
+                <div class="div7">byc</div>
+                <div class="div8">cos</div>
+                <div class="div9">tegp</div>
+                <div class="div10">typu</div>
+                <div class="div11">no</div>
+                <div class="div12">wiec</div>
+                <div class="div13">tego</div>
+                <div class="div14">no</div>
+                <div class="div15">tak</div>
+                <div class="div16">no</div>
+                <div class="div17">ale</div>
+                <div class="div18">no</div>
+                <div class="div19">tak</div>
+                <div class="div20">jakos</div>
+                <div class="div21">wyszlo</div>
+                <div class="div22">ze</div>
+                <div class="div23">nic</div>
+                <div class="div24">tu</div>
+                <div class="div25">nie</div>
+                <div class="div26">ma</div>
+                <div class="div27">no</div>
+                <div class="div28">ale</div>
+                <div class="div29">moze</div>
+                <div class="div30">kiedys</div>
+                <div class="div31">cos</div>
+                <div class="div32">tu</div>
+                <div class="div33">bedzie</div>
+                <div class="div34">moze</div>
+                <div class="div35">ale</div>
+                <div class="div36">no</div>
+                <div class="div37">nie</div>
+                <div class="div38">obiecuje</div>
+                <div class="div39">tego</div>
+                <div class="div40">typu</div>
+            </div>
+        </section>
+
+        <section id="About">
+            <div class="content2">
+                <h1>About</h1> <br>
+                <span>I'm an ambitious and creative software engineer from Poland.
+                    I use JavaScript, Typescript for creating interactive websites and
+                    C++, Python, Node.js for high performance backends.
+                    Adaptive and ready for the challenges.</span>
+            </div>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="skrollr.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+        if (s.isMobile()) {
+            s.destroy();
+        }
+    </script>
+</body>
+
+</html>
